@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .digital_marketing_section {
+            width: 100%;
+            background-color: #F7FAFF;
+            padding: 16px;
+        }
+
+        .digital_marketing_container {
+            max-width: 1171px;
+            margin: auto;
+            padding: 16px;
+
+        }
+
+        .digital_marketing_container>h2 {
+            font-size: clamp(20px, 3vw, 36px);
+            margin-bottom: 10px;
+        }
+
+        .digital_marketing_container p {
+            font-size: clamp(12px, 3vw, 18px);
+        }
+
+        .marketing-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 30px 0px;
+        }
+
+        .card {
+            padding: 10px;
+            box-shadow: 0px 1px 2px 2px #F2F4F7;
+        }
+
+        .card h3 {
+            font-size: clamp(10px, 3vw, 20px);
+        }
+
+        @media (width<=900px) {
+            .marketing-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+
+            }
+        }
+
+        @media (width<=600px) {
+            .marketing-grid {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="digital_marketing_section">
+        <div class="digital_marketing_container">
+            <h2>Why Learn Digital Marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            <div class="marketing-grid">
+                <div class="card">
+                    <img src="1.png" alt="">
+                    <h3>Learn From Industry Experts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis
+                        dignissim felis.</p>
+                </div>
+                <div class="card">
+                    <img src="1.png" alt="">
+                    <h3>Learn From Industry Experts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis
+                        dignissim felis.</p>
+                </div>
+                <div class="card">
+                    <img src="1.png" alt="">
+                    <h3>Learn From Industry Experts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis
+                        dignissim felis.</p>
+                </div>
+                <div class="card">
+                    <img src="1.png" alt="">
+                    <h3>Learn From Industry Experts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis
+                        dignissim felis.</p>
+                </div>
+                <div class="card">
+                    <img src="1.png" alt="">
+                    <h3>Learn From Industry Experts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis
+                        dignissim felis.</p>
+                </div>
+                <div class="card">
+                    <img src="1.png" alt="">
+                    <h3>Learn From Industry Experts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis
+                        dignissim felis.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
